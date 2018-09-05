@@ -1,4 +1,6 @@
-DirectOutput Framework R3++, Grand Unified Edition
+Arduino Uno Support for DirectOutput (experimental)
+
+Based on DirectOutput Framework R3++, Grand Unified Edition
 
 DirectOutput is an add-in for Visual Pinball and other programs that
 provides software control over external feedback devices in a virtual
