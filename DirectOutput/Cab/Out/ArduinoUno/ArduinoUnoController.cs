@@ -47,6 +47,14 @@ namespace DirectOutput.Cab.Out.NullOutputController
         public ArduinoUnoController()
         {
             Outputs = new OutputList();
+
+            for (int i = 1; i <= 15; i++)
+            {
+                if (!Outputs.Any(x => x.Number == i))
+                {
+                    Outputs.Add(new Output() { Name = "{0}.{1:00}".Build(Name, i), Number = i });
+                }
+            }
         }
 
 

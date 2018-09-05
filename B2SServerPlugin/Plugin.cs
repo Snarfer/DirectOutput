@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Composition;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using B2SServerPluginInterface;
@@ -96,6 +97,8 @@ namespace B2SServerPlugin
         /// <param name="RomName">Name of the rom.</param>
         public void PluginInit(string TableFilename, string RomName)
         {
+
+            Debugger.Launch();
 
             //Check config dir for global config file
             FileInfo F = new FileInfo(Path.Combine(new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.FullName, "config", "GlobalConfig_B2SServer.xml"));
