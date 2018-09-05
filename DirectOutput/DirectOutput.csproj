@@ -148,6 +148,7 @@
     <Compile Include="Cab\Out\AdressableLedStrip\DirectStripController.cs" />
     <Compile Include="Cab\Out\AdressableLedStrip\TeensyStripController.cs" />
     <Compile Include="Cab\Out\AdressableLedStrip\WS2811StripController.cs" />
+    <Compile Include="Cab\Out\ArduinoUno\ArduinoUnoController.cs" />
     <Compile Include="Cab\Out\ComPort\GenericCom.cs" />
     <Compile Include="Cab\Out\ComPort\PinControl.cs" />
     <Compile Include="Cab\Out\DMX\ArtnetEngine\ArtnetEngine.cs" />
